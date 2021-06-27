@@ -1,0 +1,11 @@
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+.gameboard-display {
+    height: 80px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+}
